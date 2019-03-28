@@ -1,13 +1,13 @@
 # CodeIgniter 3 + Vue CLI 3
-Make a new codeigniter project
+- Make a new codeigniter project
 
-Make a public folder in your codeigniter root directory (build files will live here)
+- Make a public folder in your codeigniter root directory (build files will live here)
 
-Copy index.php from root directory into the public directory
+- Copy index.php from root directory into the public directory
 
-Edit index.php and fix path of system and application to `../system` and `../application` respectively.
+- Edit index.php and fix path of system and application to `../system` and `../application` respectively.
 
-Create a virtual host that points to the `public` directory created.
+- Create a virtual host that points to the `public` directory created.
 
 This demo assumes you are serving this CodeIgniter  at  `civue.test` (using vhost). If you are serving the Codeigniter at a different local URL, modify it accordingly in  `frontend/vue.config.js`.
 
@@ -83,4 +83,4 @@ Steps for Scaffolding From Scratch
 
 **application/views/home.php**
 
-Leave empty for now
+Leave empty for now, and run `npm run build` in `frontend` dir

@@ -27,7 +27,7 @@ npm run build
 
  1. Create CodeIgniter Project
 
- 2. Create a Vue CLI 3 project in the Laravel app
+ 2. Create a Vue CLI 3 project in the Codeigniter app
 
     ``` sh
     vue create frontend
@@ -92,3 +92,5 @@ npm run build
 **application/views/home.php**  
   
 Leave empty for now
+
+Thanks to @yyx990803

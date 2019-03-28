@@ -27,8 +27,9 @@ Steps for Scaffolding From Scratch
 2.  Create a Vue CLI 3 project in the CodeIgniter app
 
     vue create frontend
+3. Copy index.php from root directory into the public directory
     
-3.  Configure Vue project
+4.  Configure Vue project
     
     Create  `frontend/vue.config.js`:
     
@@ -59,7 +60,7 @@ Steps for Scaffolding From Scratch
       "lint": "vue-cli-service lint"
     },
     
-4.  Configure CodeIgniter for single-page app.
+5.  Configure CodeIgniter for single-page app.
     
     **application/config/routes.php**
     change `$route['default_controller'] = 'welcome';`  to `$route['default_controller'] = 'home';`

@@ -33,7 +33,7 @@ npm run build
     vue create frontend
     ```
 
- 3. Copy index.php from root directory into the public directory  
+ 3. Copy index.php from root directory into the public directory `frontend/public`
 
  4. Configure Vue project
 
